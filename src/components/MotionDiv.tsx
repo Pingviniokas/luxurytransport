@@ -6,10 +6,10 @@ import { ReactNode } from 'react';
 interface MotionDivProps {
   children: ReactNode;
   className?: string;
-  initial?: any;
-  animate?: any;
-  whileInView?: any;
-  transition?: any;
+  initial?: Record<string, string | number>;
+  animate?: Record<string, string | number>;
+  whileInView?: Record<string, string | number>;
+  transition?: Record<string, string | number>;
 }
 
 export function MotionDiv({

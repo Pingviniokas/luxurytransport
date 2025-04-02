@@ -357,7 +357,7 @@ export default function FleetPage() {
       {/* Fleet Categories */}
       <section className="py-16 bg-white">
         <div className="container-custom">
-          {vehicleCategories.map((category, categoryIndex) => (
+          {vehicleCategories.map((category) => (
             <div key={category.title} className="mb-20 last:mb-0">
               <div className="text-center mb-12">
                 <span className="text-sm text-gold uppercase font-montserrat tracking-wider">Premium Selection</span>
